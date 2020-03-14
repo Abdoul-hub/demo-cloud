@@ -9,7 +9,7 @@ on:
     branches: [ master ]
 env:
   GITHUB_DOCKER_REGISTRY: docker.pkg.github.com
-  ORGANISATION: Abdoul-hub
+  ORGANISATION: abdoul-hub
   PROJECT: demo-cloud
   PACKAGE_NAME: dc-server
 
@@ -51,7 +51,7 @@ jobs:
       
     - name: Docker login
       run: |         
-        docker login docker.pkg.github.com -u Abdoul-hub -p ${{ secrets.GITHUB_TOKEN }}     
+        docker login docker.pkg.github.com -u abdoul-hub -p ${{ secrets.GITHUB_TOKEN }}     
     
     - name: Docker push       
       run: |         
