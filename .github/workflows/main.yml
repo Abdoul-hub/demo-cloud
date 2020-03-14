@@ -55,7 +55,7 @@ jobs:
     
     - name: Docker push       
       run: |         
-        docker push docker.pkg.github.com/Abdoul-hub/actions/deploy
+        docker push docker.pkg.github.com/abdoul-hub/actions/deploy
         
         
         
